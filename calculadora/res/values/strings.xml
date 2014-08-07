@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">calculadora</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cero">0</string>
+    <string name="btnone">1</string>
+    <string name="btntwo">2</string>
+    <string name="btnthree">3</string>
+    <string name="btnfour">4</string>
+    <string name="btnfive">5</string>
+    <string name="btnsix">6</string>
+    <string name="btnseven">7</string>
+    <string name="btneight">8</string>
+    <string name="btnnight">9</string>
+    <string name="ziro">0</string>
+    <string name="ce">CE</string>
+    <string name="divi">/</string>
+    <string name="sum">+</string>
+    <string name="rest">-</string>
+    <string name="mult">*</string>
+    <string name="igual">=</string>
+    <string name="del">DEL</string>
+    <string name="sabe">sqrt</string>
+    <string name="punto">.</string>
+    <string name="raro">x²</string>
+    <string name="size"></string>
+    
+
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/size" />
+
+    <TextView
+        android:id="@+id/Resultado"
+        android:layout_width="320dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:background="@drawable/panel"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="@string/size" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/Boton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btn_one"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Boton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btntwo"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Boton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnthree"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Botondiv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btndivide"
+                android:contentDescription="@string/size" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/size" >
+
+            <ImageButton
+                android:id="@+id/Boton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnfour"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Boton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnfive"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Boton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnsix"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Botonmulti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnmultiplicacion"
+                android:contentDescription="@string/size" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/Boton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnseven"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Boton8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btneight"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Boton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnnine"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Botonresta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnresta"
+                android:contentDescription="@string/size" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/Boton0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnziro"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Botonpunto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnpunto"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/DEL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btndelete"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Botonsuma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnsuma"
+                android:contentDescription="@string/size" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/Botonexp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnraro"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Botonsqrt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnsqrt"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/Botonigual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnigual"
+                android:contentDescription="@string/size" />
+
+            <ImageButton
+                android:id="@+id/CE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@anim/btnce"
+                android:contentDescription="@string/size" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
